@@ -1,6 +1,6 @@
 # tf-autoscale-lb
 
-tf-autoscale-lb is a project that interfaces with AWS to create an autoscaling group of VMs behind a load balancer It uses terraform to create plans, apply them, and destroy infrastructure. Terraform commands are triggered using python in main.py.
+tf-autoscale-lb is a project that interfaces with AWS to create an autoscaling group of VMs behind a load balancer. It uses terraform to create plans, apply them, and destroy infrastructure. Terraform commands are triggered using python in main.py.
 
 # Pre-reqs:
   - Must have terraform installed on your computer
@@ -9,5 +9,5 @@ tf-autoscale-lb is a project that interfaces with AWS to create an autoscaling g
 
 # How to Use
   - Open main directory of project
-  - Type python3 main.py <cmd>
-  - <cmd> can be plan, apply, or destroy
+  - Type python3 main.py 'cmd'
+  - 'cmd' can be plan, apply, or destroy
